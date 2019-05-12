@@ -1,15 +1,17 @@
 import React from 'react';
 import logo from './logo.svg';
+import Sidebar from './Sidebar'
 import './App.css';
 
 
 function App() {
   return (
     <div className="App">
+      <Sidebar />
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          Edit <code>src/App.js</code> and save to reload hahahahahaha.
+          Edit <code>src/App.js</code> and save to reload.
         </p>
         <a
           className="App-link"
@@ -20,6 +22,7 @@ function App() {
           Learn React
         </a>
       </header>
+      
     </div>
   );
 }
