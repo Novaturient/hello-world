@@ -1,13 +1,11 @@
 import React from 'react';
 import logo from './logo.svg';
-{/*import './App.css';*/}
-import SideNav from './Sidenav.js';
-import '@trendmicro/react-sidenav/dist/react-sidenav.css';
+import './App.css';
+
 
 function App() {
   return (
     <div className="App">
-      <SideNav />
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
